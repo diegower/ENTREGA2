@@ -48,7 +48,7 @@
 }
 .header .nav-links a {
   font-size: 700;
-  color: rgb(0, 0, 0);
+  color: var(--verde);
   text-decoration: none;
 }
 /*main*/
@@ -109,4 +109,13 @@ main {
   flex-direction: column;
   justify-content: center;
   gap: 20px;
+}
+
+#info {
+  margin-top: 70px;
+  padding: 70px 0;
+  max-width: 1200px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
