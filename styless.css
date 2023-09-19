@@ -181,7 +181,7 @@ main {
   font-weight: 300;
   color: var(--violet);
 }
-
+/* mapa y formulario */
 .contacto-info {
   width: 80%;
   height: auto;
@@ -250,4 +250,42 @@ main {
   text-transform: uppercase;
   padding: 10px 0;
   font-size: 20px;
+}
+
+/* footer */
+footer {
+  background: var(--gray);
+  color: var(--white);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  padding: 40px 0;
+}
+footer img {
+  height: 50px;
+  border: 1px solid #aed2ff;
+}
+
+footer a {
+  color: var(--white);
+  font-weight: 300;
+  width: 120px;
+  padding: 8px 0px;
+  font-size: 14px;
+  text-align: center;
+  text-decoration: none;
+}
+
+footer p {
+  color: var(--white);
+  font-weight: 300;
+  font-size: 14px;
+}
+
+.footer-links {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
 }
